@@ -18,7 +18,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   text-align: center;
-  border: 2px solid #d3d3d3; /* Light gray border */
+  border: 5px solid #d3d3d3; /* Light gray border */
 }
 
 h1 {
