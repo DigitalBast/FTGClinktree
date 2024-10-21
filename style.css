@@ -1,74 +1,74 @@
-* {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  background: url('https://i.imgur.com/ylA6Sjl.png') repeat; /* Self-repeating background image */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #000000; /* Black background color */
+}
 
-    body {
-      font-family: Arial, sans-serif;
-      background: url('YOUR_IMAGE_URL_HERE') repeat; /* Self-repeating background image */
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
+.title-container, .links-container {
+  width: 400px; /* Width for both containers */
+  background-color: #2e2e2e; /* Dark gray color */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: center;
+  border: 2px solid #d3d3d3; /* Light gray border */
+}
 
-    .title-container {
-      text-align: center;
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      border: 2px solid black; /* Black border */
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      margin-bottom: 20px; /* Space between title and buttons */
-    }
+h1 {
+  margin: 0;
+  font-size: 24px; /* Adjust font size if needed */
+  white-space: nowrap; /* Force title to stay on one line */
+  color: #d3d3d3; /* Light gray font color */
+}
 
-    h1 {
-      margin: 0; /* Remove default margin */
-    }
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
-    .button-container {
-      text-align: center;
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      border: 2px solid black; /* Black border */
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
+.button {
+  width: 150px; /* Fixed width for buttons */
+  padding: 10px 0; /* Adjust padding for height */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin: 0 auto; /* Center the buttons */
+  border: 2px solid #d3d3d3; /* Increased light gray border */
+}
 
-    .button {
-      display: block;
-      margin: 10px auto; /* Center the buttons */
-      padding: 10px 15px; /* Shorter padding for shorter buttons */
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-      transition: background-color 0.3s;
-      width: 150px; /* Fixed width for buttons */
-    }
+.steam {
+  background-color: #1b2838;
+  font-size: 24px; /* Increased font size for Steam button */
+  width: 300px; /* Double the width for Steam button */
+  padding: 20px 0; /* Double the padding for Steam button */
+}
 
-    .steam {
-      background-color: #171a21;
-      font-size: 1.5em; /* Double size */
-    }
+.discord {
+  background-color: #5865f2;
+}
 
-    .discord {
-      background-color: #7289da;
-    }
+.x {
+  background-color: #000000;
+}
 
-    .x {
-      background-color: #1da1f2;
-    }
+.youtube {
+  background-color: #ff0000;
+}
 
-    .youtube {
-      background-color: #ff0000;
-    }
+.instagram {
+  background-color: #e1306c;
+}
 
-    .instagram {
-      background-color: #c32aa3;
-    }
-
-    .button:hover {
-      opacity: 0.8;
-    }
+.button:hover {
+  opacity: 0.8;
+}

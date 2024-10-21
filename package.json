@@ -1,9 +1,10 @@
 {
-      "name": "linktree",
-      "private": true,
-      "version": "0.0.0",
-      "scripts": {
-        "dev": "vite"
-      },
-      "dependencies": {}
-    }
+  "name": "linktree-website",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "vite": "^4.2.0"
+  }
+}
